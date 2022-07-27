@@ -27,6 +27,7 @@ const ReactUseSate = () => {
       <button onClick={handleEvent}>Mudar nome.</button>
 
       {/* 2 - useState e input */}
+      <p>Digite sua idade:</p>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -36,6 +37,8 @@ const ReactUseSate = () => {
         <input type="submit" value="enviar" />
       </form>
       <p>Você tem: {age} anos!</p>
+
+      <hr />
     </div>
   )
 }
